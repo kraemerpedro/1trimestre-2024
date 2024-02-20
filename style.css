@@ -5,7 +5,63 @@
 --verde:#6fff57;
 --botao-ativo:#3a357e;
 --boato-inativo:rgba(58, 55, 94, 0.5);
---texto-de-fundo:rgba(58, 55 94, 0.3)
+--texto-de-fundo:rgba(58, 55 94, 0.3);
+}
 
+
+body{
+    background-color: var(--cor-de-fundo);
+color: var(--branco);
+font-family: 'chakra petch', sans-serif;
 
 }
+
+.conteudo-principal{
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+align-items: left;
+width: 100%;
+font-size: 32px;
+}
+
+.titulo-principal{
+    color: var(--verde);
+    font-size: 40px;
+}
+
+.botao{
+font-family: 'chakra petch', sans-serif;
+background-color: var(--boato-inativo);
+color: var(--branco);
+display: flex;
+justify-content: center;
+padding: 1en;
+font-size: 18px;
+align-items: center;
+width: 100%;
+border-bottom: 4px solid var(--botao-ativo);
+border-left: 2px solid var(--botao-ativo);
+border-right: 2px solid var(--botao-ativo);
+border-top: none;
+}
+
+.botoes{
+display: block;}
+
+@media screen and (min-width:768px)
+   .botoes{
+    dispay:flex ;
+
+
+
+   } 
+
+   
